@@ -1,0 +1,30 @@
+.App {
+  color:rgb(25, 24, 29);
+}
+
+.App-header {
+  background-color: rgb(255,255,255);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(20px + 2vmin);
+  color: rgb(25, 24, 29);
+  padding-right: 210px;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.nav {
+  color:rgb(175, 172, 182);
+  background-color:rgb(25, 24, 29);
+  font-size: 18px;
+  padding:8px;
+  padding-left:16px;
+}
+
+#upload {
+  font-size: 30px;
+}
+
