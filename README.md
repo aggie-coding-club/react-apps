@@ -1,4 +1,4 @@
 # react-apps
 
-hello \n
+hello
 bonjour
