@@ -1,15 +1,28 @@
+body {
+  background-color: maroon;
+}
+
 .App {
   color:rgb(25, 24, 29);
 }
 
 .App-header {
-  background-color: rgb(255,255,255);
+  background-color: rgb(255, 255, 255);
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: calc(20px + 2vmin);
+  font-size: calc(70px + 2vmin);
   color: rgb(25, 24, 29);
-  padding-right: 210px;
+  border-bottom: 7px solid black;
+  font-family: 'Square Peg', cursive;
+  height: 160px;
+}
+
+.logo {
+  width: 110px;
+  height: 110px;
+  margin-right: 50px;
+  margin-left: 30%;
 }
 
 .App-link {
@@ -28,3 +41,64 @@
   font-size: 30px;
 }
 
+.container {
+  display: flexbox;
+  flex-direction: row;
+}
+
+.categories-section {
+  background-color: black;
+  color: white;
+  width: 25%;
+  float: left;
+  height: 20rem;
+  border-radius: 10px;
+  text-align: center;
+  margin-top: 3%;
+}
+
+.items-section {
+  width: 75%;
+  float: left;
+}
+
+.nav-btn, .upload-btn {
+  width: 100%;
+  color: white;
+  font-size: 20px;
+}
+
+.nav-btn {
+  background-color: black;
+  height: 40px;
+}
+
+.upload-btn {
+  background-color: rgb(231, 75, 210);
+  height: 120px;
+}
+
+
+.arrow {
+  float: right;
+  height: 20px;
+  width: 20px;
+  padding-right: 10px;
+}
+
+.header-btn {
+  float: right;
+  font-size: 18px;
+  margin-right: 20px;
+  background-color: black;
+  color: white;
+  height: 50px;
+  width: 90px;
+  border: 2px solid black;
+  border-radius: 9px;
+}
+
+.topnav-right {
+  float: right;
+  margin-left: 18%;
+}

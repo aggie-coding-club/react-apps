@@ -1,0 +1,20 @@
+.card-div {
+    width: 250px;
+    height: 350px;
+    border: 3px solid black;
+    border-radius: 40px;
+    display: inline-block;
+    margin: 30px;
+    text-align: center;
+    padding: 15px;
+    background-color: white;
+}
+
+.image-div {
+    border-bottom: 2px solid black;
+}
+
+.title {
+    font-size: 20px;
+    margin-bottom: 5px;
+}
